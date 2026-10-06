@@ -66,8 +66,8 @@
 | Diseñar arquitectura CNN | ✅ Completado | |
 | Implementar `modelo/red_neuronal.py` | ✅ Completado | |
 | Implementar `modelo/entrenamiento.py` | ✅ Completado | |
-| Recolectar dataset de imágenes | ⏳ Pendiente | |
-| Organizar dataset en train/val | ⏳ Pendiente | |
+| Recolectar dataset de imágenes | ✅ Completado | |
+| Organizar dataset en train/val | ✅ Completado | |
 
 **Entregable:** Código del modelo listo para entrenamiento
 

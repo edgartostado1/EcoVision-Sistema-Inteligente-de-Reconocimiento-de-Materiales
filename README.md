@@ -4,13 +4,15 @@ Aplicación en Python que utiliza Deep Learning para reconocer residuos mediante
 
 ## Categorías
 
-- Plástico
-- Metal
-- Vidrio
-- Papel
+- Basura
 - Cartón
-- Orgánico
-- No reciclable
+- Metal
+- Papel
+- Plástico
+- Vidrio
+
+> **Nota:** el dataset actual no incluye imágenes de **Orgánico**. Cuando se
+> agreguen, habrá que reentrenar el modelo con `num_clases=7`.
 
 ## Tecnologías
 
