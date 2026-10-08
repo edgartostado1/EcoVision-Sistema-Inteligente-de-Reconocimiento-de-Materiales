@@ -15,8 +15,7 @@ CATEGORIAS = [
     "Vidrio",
     "Papel",
     "Cartón",
-    "Orgánico",
-    "No reciclable",
+    "basura",
 ]
 
 # Tamaño de imagen esperado por el modelo
@@ -33,7 +32,7 @@ class RedNeuronalMateriales(nn.Module):
         - Softmax implícito en la salida (CrossEntropyLoss lo aplica)
     """
 
-    def __init__(self, num_clases: int = 7):
+    def __init__(self, num_clases: int = 6):
         super().__init__()
 
         # Capas convolucionales
@@ -72,7 +71,7 @@ class RedNeuronalMateriales(nn.Module):
         return x
 
 
-def crear_modelo(num_clases: int = 7) -> RedNeuronalMateriales:
+def crear_modelo(num_clases: int = 6) -> RedNeuronalMateriales:
     """Crea y devuelve una instancia del modelo."""
     return RedNeuronalMateriales(num_clases=num_clases)
 

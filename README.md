@@ -9,8 +9,7 @@ Aplicación en Python que utiliza Deep Learning para reconocer residuos mediante
 - Vidrio
 - Papel
 - Cartón
-- Orgánico
-- No reciclable
+- basura
 
 ## Tecnologías
 

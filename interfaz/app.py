@@ -20,8 +20,7 @@ RECOMENDACIONES = {
     "Vidrio": "Retira las tapas y enjuaga los envases. Deposítalos en el contenedor verde.",
     "Papel": "Dóblalo para ahorrar espacio y colócalo en el contenedor azul.",
     "Cartón": "Aplasta las cajas y deposítalas en el contenedor azul.",
-    "Orgánico": "Deposítalo en el contenedor marrón para compostaje.",
-    "No reciclable": "Llévalo al contenedor gris o a un punto limpio.",
+    "basura": "Llévalo al contenedor gris o a un punto limpio.",
 }
 
 
@@ -45,7 +44,7 @@ def main():
         layout="centered",
     )
 
-    st.title("♻️ EcoVision")
+    st.title("EcoVision")
     st.subheader("Sistema Inteligente de Reconocimiento de Materiales")
 
     st.write(
